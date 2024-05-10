@@ -1,22 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: "Minecraft";
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    font-family: "Minecraft", sans-serif;
+    /* margin: 0;
+    padding: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    /* background-image: url("./images/sonic_green_hill_zone.gif"); */
+    /* height: 50vh; */
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     flex-direction: column;
     min-height: 100vh;
     padding: 20px;
+    
 }
 
 .button-container{
@@ -40,7 +43,9 @@ body {
 .card {
     background-color: #caf0f8;
     transform: translateY(-50px);
-    font-size: 24px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
     color: rgb(4,120,190);
     cursor: grab;
 }
@@ -123,3 +128,75 @@ body {
 .border-right {
   right: 0;
 }
+
+/* Mobile S - 320px */
+@media (min-width: 320px) {
+    .card {
+        font-size: 15px;
+        padding:4px;
+    }
+}
+
+/* Mobile M - 375px */
+@media (min-width: 375px) {
+    .card {
+        font-size: 18px;
+        padding: 4px;
+    }
+}
+
+/* Mobile L - 425px */
+@media (min-width: 425px) {
+    .card {
+        font-size: 18px;
+        padding: 4px;
+    }
+}
+
+/* Tablet - 768px */
+@media (min-width: 768px) {
+    .button-container {
+        font-size: 20px;
+        padding: 2px;
+    }
+    .card {
+        font-size: 25px;
+        padding: 4px;
+    }
+}
+
+/* Laptop - 1024px */
+@media (min-width: 1024px) {
+    .button-container {
+        font-size: 30px;
+        padding: 3px;
+    }
+    .card {
+        font-size: 35px;
+        padding: 4px;
+    }
+}
+
+/* Laptop L - 1440px */
+@media (min-width: 1440px) {
+    .button-container {
+        font-size: 35px;
+        padding: 3px;
+    }
+    .card {
+        font-size: 38px;
+        padding: 4px;
+    }
+}
+
+/* 4k - 2560px */
+@media (min-width: 2560px) {
+    .button-container {
+        font-size: 50px;
+        padding: 2px;
+    }
+    .card {
+        font-size: 80px;
+        padding: 7px;
+    }
+} 
