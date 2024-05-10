@@ -36,6 +36,10 @@ body {
     font-style: normal;
 }
 
+.button-container {
+    transform: translateY(-250px); 
+}
+
 .button-container:active {
     top: 4px;
 }
