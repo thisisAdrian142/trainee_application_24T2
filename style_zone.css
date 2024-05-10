@@ -2,24 +2,21 @@
     margin: 0;
     padding: 0;
 }
-.background-image {
-    background-image: url("./images/sonic_green_hill_zone.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
 
 body {
+    font-family: "Minecraft";
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     background-image: url("./images/sonic_green_hill_zone.gif");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .button-container{
@@ -31,13 +28,21 @@ body {
     background-clip: content-box;
     cursor:pointer;
     user-select: none;
-    font-family: "Courier New";
     font-weight: bold;
     font-style: normal;
 }
 
 .button-container {
-    transform: translateY(-250px); 
+    transform: translateY(-200px); 
+}
+
+/* CARD CONTENT  */
+.card {
+    background-color: #caf0f8;
+    transform: translateY(-50px);
+    font-size: 24px;
+    color: rgb(4,120,190);
+    cursor: grab;
 }
 
 .button-container:active {
