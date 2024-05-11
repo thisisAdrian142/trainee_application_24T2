@@ -36,7 +36,7 @@ body {
 }
 
 .button-container {
-    transform: translateY(-200px); 
+    transform: translateY(-150px); 
 }
 
 /* CARD CONTENT  */
@@ -156,11 +156,11 @@ body {
 /* Tablet - 768px */
 @media (min-width: 768px) {
     .button-container {
-        font-size: 20px;
-        padding: 2px;
+        font-size: 15px;
+        padding: 5px;
     }
     .card {
-        font-size: 25px;
+        font-size: 21px;
         padding: 4px;
     }
 }
@@ -169,7 +169,7 @@ body {
 @media (min-width: 1024px) {
     .button-container {
         font-size: 30px;
-        padding: 3px;
+        padding: 2px;
     }
     .card {
         font-size: 35px;
