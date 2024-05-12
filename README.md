@@ -19,4 +19,4 @@ Technologies used in this project:
 
 ## ❤️ Like my page ?
 
-Please count me in this program 😘
+Count me in this program 😘
