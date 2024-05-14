@@ -46,13 +46,20 @@
         These are some projects that <br />
         I'd worked in the past <br />
         <br />
-        <ul>
-          <li class="item">Uni Hack traffic tracking</li>
-          <li>Reveal images scroll effect</li>
-          <li>Books bot</li>
-        </ul>
       </p>
+      <ul>
+        <li class="item" data-image="images/Traffic_Tracking.png">
+          Uni Hack - Traffic Tracking
+        </li>
+        <li class="item" data-image="images/Images_reveal.png">
+          Images reveal on scroll
+        </li>
+        <li class="item" data-image="images/sonic_labyrinth_zone.gif">
+          Book bot
+        </li>
+      </ul>
     </div>
+    <img src="" alt="" id="hover-image" />
     <style>
       body {
         background-image: url("/images/sonic_green_hill_zone.gif");
@@ -73,6 +80,46 @@
         padding: 10px;
         border-radius: 10px;
       }
+      ul {
+        position: relative;
+        padding: 10px;
+      }
+      li {
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+      }
+      #hover-image {
+        position: absolute;
+        width: 50%;
+        z-index: 10;
+        transform: translateX(-50%) translateY(-50%);
+        display: none;
+        pointer-events: none;
+      }
     </style>
+    <script>
+      const items = document.querySelectorAll(".item");
+      const image = document.getElementById("hover-image");
+
+      items.forEach((el) => {
+        el.addEventListener("mouseover", (e) => {
+          const imageData = e.target.getAttribute("data-image");
+          image.style.display = "block";
+          image.setAttribute("src", imageData);
+        });
+
+        el.addEventListener("mousemove", (e) => {
+          image.style.top = `${e.clientY}px`;
+          image.style.left = `${e.clientX}px`;
+        });
+
+        el.addEventListener("mouseleave", () => {
+          image.style.display = "none";
+          image.setAttribute("src", "");
+        });
+      });
+    </script>
   </body>
 </html>
