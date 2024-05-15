@@ -43,8 +43,20 @@
         Age: 21 <br />
         Degree: Computer Science <br />
       </p>
+      <ul>
+        <li class="item" data-image="images/f18.webp">
+          Jet Fighters 
+        </li>
+        <li class="item" data-image="images/warhammer40k.gif">
+          Warhammer 40k
+        </li>
+        <li class="item" data-image="images/cod_mw.gif">
+          Call of Duty: Modern Warfar 2019
+        </li>
+      </ul>
       </div>
     </div>
+    <img src="" alt="" id="hover-image" />
     <style>
       body {
         background-image: url("./images/sonic_studiopolis_zone.gif");
@@ -65,6 +77,25 @@
         padding: 10px;
         border-radius: 10px;
       }
+      ul {
+        position: relative;
+        padding: 10px;
+      }
+      li {
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+      }
+      #hover-image {
+        position: absolute;
+        width: 50%;
+        z-index: 10;
+        transform: translateX(-50%) translateY(-50%);
+        display: none;
+        pointer-events: none;
+      }
     </style>
+    <script src="/script.js"></script>
   </body>
 </html>
