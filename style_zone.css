@@ -7,12 +7,9 @@
 body {
     overflow: hidden;
     font-family: "Minecraft", sans-serif;
-    /* margin: 0;
-    padding: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 50vh; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -172,7 +169,7 @@ body {
         padding: 2px;
     }
     .card {
-        font-size: 35px;
+        font-size: 30px;
         padding: 4px;
     }
 }
@@ -180,11 +177,11 @@ body {
 /* Laptop L - 1440px */
 @media (min-width: 1440px) {
     .button-container {
-        font-size: 35px;
-        padding: 3px;
+        font-size: 25px;
+        padding: 4px;
     }
     .card {
-        font-size: 38px;
+        font-size: 25px;
         padding: 4px;
     }
 }
@@ -192,11 +189,11 @@ body {
 /* 4k - 2560px */
 @media (min-width: 2560px) {
     .button-container {
-        font-size: 50px;
+        font-size: 40px;
         padding: 2px;
     }
     .card {
-        font-size: 80px;
+        font-size: 40px;
         padding: 7px;
     }
 } 
