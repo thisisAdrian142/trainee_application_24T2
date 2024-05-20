@@ -14,7 +14,7 @@ body {
   background: -webkit-linear-gradient(to bottom, #414345, #232526);  
   background: linear-gradient(to bottom, #414345, #232526);  */
   
-  background: url("/images/space_background.jpeg");
+  background: url("./images/space_background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
