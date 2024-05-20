@@ -7,7 +7,7 @@
     <title>ZONE 2</title>
     <link rel="stylesheet" href="style_zone.css" />
   </head>
-  <body>
+  <body class="thisisclasszone2">
     <div class="button-container success">
       <div class="corner corner-top-left"></div>
       <div class="corner corner-top-right"></div>
@@ -55,9 +55,6 @@
     </div>
     <img src="" alt="" id="hover-image" />
     <style>
-      body {
-        background-image: url("./images/robot_typing.gif");
-      }
       .button-container.success {
         background-color: #079ad8;
       }
@@ -72,26 +69,6 @@
         background-color: #3f9e75;
         color: #e19e46;
         padding: 10px;
-        border-radius: 10px;
-      }
-      ul {
-        position: relative;
-        padding: 10px;
-      }
-      li {
-        position: relative;
-        text-align: center;
-        margin-bottom: 20px;
-        letter-spacing: 1px;
-      }
-      #hover-image {
-        position: absolute;
-        width: 50%;
-        z-index: 10;
-        transform: translateX(-50%) translateY(-50%);
-        display: none;
-        pointer-events: none;
-        border-style: solid;
         border-radius: 10px;
       }
     </style>
