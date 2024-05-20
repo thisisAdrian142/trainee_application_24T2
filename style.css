@@ -9,11 +9,7 @@ body {
   font-family: "Minecraft", sans-serif;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  /* background: #232526; 
-  background: -webkit-linear-gradient(to bottom, #414345, #232526);  
-  background: linear-gradient(to bottom, #414345, #232526);  */
-  
+  overflow: hidden;  
   background: url("./images/space_background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
