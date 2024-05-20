@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
     background-color: #d9d9d9;
     overflow: hidden;
     background-clip: content-box;
-    cursor:pointer;
+    cursor: pointer;
     user-select: none;
     font-weight: bold;
     font-style: normal;
