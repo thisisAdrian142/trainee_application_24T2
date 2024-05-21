@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function(){
-  //* other styles
-  function set_style(class_name, property, value) {
-    const ele = document.querySelectorAll(class_name);
-    ele.forEach(element => {
-      element.style[property] = value;
-    });
-  }
+//* other styles
+function set_style(class_name, property, value) {
+  const ele = document.querySelectorAll(class_name);
+  ele.forEach(element => {
+    element.style[property] = value;
+  });
+}
  
   //* ABOUT ME
   if(document.body.classList.contains('zone1')) {
@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function(){
     set_style('.about-me', 'color', 'rgb(218, 158, 64)');
     set_style('.about-me', 'padding', '10px');
     set_style('.about-me', 'border-radius', '10px');
-
   }
 
   //* MY PORTFOLIO

@@ -1,4 +1,4 @@
-* {
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     padding: 20px;
-    
 }
 
 .button-container{
@@ -33,10 +32,10 @@ body {
 }
 
 .button-container {
-    transform: translateY(-150px); 
+    transform: translateY(-100px); 
 }
 
-/* CARD CONTENT  */
+/** CARD CONTENT  */
 .card {
     transform: translateY(-50px);
     font-size: 16px;
@@ -89,15 +88,13 @@ body {
     background-color: #000;
 }
   
-.border-top,
-.border-bottom {
+.border-top, .border-bottom {
     left: 8px;
     right: 8px;
     height: 4px;
   }
 
-.border-left,
-.border-right {
+.border-left, .border-right {
   top: 8px;
   bottom: 8px;
   width: 4px;
@@ -119,7 +116,7 @@ body {
   right: 0;
 }
 
-/* ZONE 1 & 2 */
+/** ZONE 1 & 2 */
 ul {
     position: relative;
     padding: 10px;
@@ -183,7 +180,7 @@ li {
 @media (min-width: 1024px) {
     .button-container {
         font-size: 30px;
-        padding: 2px;
+        padding: 4px;
     }
     .card {
         font-size: 30px;
@@ -207,10 +204,10 @@ li {
 @media (min-width: 2560px) {
     .button-container {
         font-size: 40px;
-        padding: 2px;
+        padding: 4px;
     }
     .card {
         font-size: 40px;
-        padding: 7px;
+        padding: 4px;
     }
 } 
