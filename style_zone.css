@@ -30,6 +30,9 @@ body {
     user-select: none;
     font-weight: bold;
     font-style: normal;
+    
+    /** transparent background */
+    opacity: .95;
 }
 
 .button-container {
@@ -158,14 +161,6 @@ li {
     }
 }
 
-/* Mobile L - 425px */
-/* @media (min-width: 425px) {
-    .card {
-        font-size: 18px;
-        padding: 4px;
-    }
-} */
-
 /* medium devices */
 @media (min-width: 768px) {
     .card {
@@ -190,26 +185,3 @@ li {
     }
 }
 
-/* Laptop L - 1440px */
-/* @media (min-width: 1440px) {
-    .button-container {
-        font-size: 25px;
-        padding: 4px;
-    }
-    .card {
-        font-size: 25px;
-        padding: 4px;
-    }
-} */
-
-/* 4k - 2560px */
-/* @media (min-width: 2560px) {
-    .button-container {
-        font-size: 40px;
-        padding: 4px;
-    }
-    .card {
-        font-size: 10px;
-        padding: 4px;
-    }
-}  */
