@@ -13,14 +13,13 @@ function set_style(class_name, property, value) {
     set_style('.button-container.success', 'background-color', '#DFD6BB');
     set_style('a', 'color', '#8A6779');
     set_style('a', 'padding', '15px');
-    // set_style('.card', 'background-color', '#f3de5d');
-    // set_style('.about-me', 'background-color', '#972633');
-    // set_style('.about-me', 'background-color', '#f7e9d7');
     set_style('.card', 'background-color', '#D08438');
     set_style('.about-me', 'background-color', '#D73A26');
     set_style('.about-me', 'color', '#F5B42F');
     set_style('.about-me', 'padding', '10px');
     set_style('.about-me', 'border-radius', '10px');
+    set_style('#title', 'display', 'block');
+    set_style('#title', 'text-align', 'center');
   }
 
   //* MY PORTFOLIO
@@ -34,6 +33,8 @@ function set_style(class_name, property, value) {
     set_style('.about-me', 'color', '#e19e46');
     set_style('.about-me', 'padding', '10px');
     set_style('.about-me', 'border-radius', '10px');
+    set_style('#title', 'display', 'block');
+    set_style('#title', 'text-align', 'center');
   }
 
   //* ABOUT THIS PAGE
@@ -47,6 +48,8 @@ function set_style(class_name, property, value) {
     set_style('.about-me', 'color', '#7ea049');
     set_style('.about-me', 'padding', '10px');
     set_style('.about-me', 'border-radius', '10px');
+    set_style('#title', 'display', 'block');
+    set_style('#title', 'text-align', 'center');
   }
 
   //* CONTACTS

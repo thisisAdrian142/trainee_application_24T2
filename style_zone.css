@@ -30,7 +30,7 @@ body {
     user-select: none;
     font-weight: bold;
     font-style: normal;
-    
+
     /** transparent background */
     opacity: .95;
 }
@@ -143,6 +143,11 @@ li {
     pointer-events: none;
     border-style: solid;
     border-radius: 10px;
+}
+
+/** All zones styling  */
+p {
+    letter-spacing: 2px;
 }
 
 /* Mobile S - 320px */
