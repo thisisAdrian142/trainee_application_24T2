@@ -107,7 +107,31 @@
         target = Math.max(0, target);
         target = Math.min(maxScroll, target);
       });
+
+      // Mobile devices
+      let touchStart = 0;
+      let touchEnd = 0;
+
+      slider.addEventListener("touchstart", (e) => {
+        touchStart = e.touches[0].pageX;
+      });
+
+      slider.addEventListener("touchmove", (e) => {
+        touchEnd = e.touches[0].pageX;
+        let touchMove = touchStart - touchEnd;
+        target += touchMove;
+        target = Math.max(0, target);
+        target = Math.min(maxScroll, target);
+        touchStart = touchEnd; // Update start position for continuous movement
+      }); 
+
+      slider.addEventListener("touchend", () => {
+        touchStart = 0;
+        touchEnd = 0;
+      });
+
       update();
+
     </script>
   </body>
 </html>
