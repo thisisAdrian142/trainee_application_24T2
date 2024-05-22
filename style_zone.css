@@ -21,6 +21,7 @@ body {
 .button-container{
     position: relative;
     display: inline-block;
+    font-size: 14px;
     padding: 4px;
     background-color: #d9d9d9;
     overflow: hidden;
@@ -38,8 +39,8 @@ body {
 /** CARD CONTENT  */
 .card {
     transform: translateY(-50px);
-    font-size: 16px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 4px;
     margin-top: 20px;
     cursor: grab;
 }
@@ -127,6 +128,7 @@ li {
     text-align: center;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    list-style-type: none;
 }
 
 #hover-image {
@@ -148,48 +150,48 @@ li {
     }
 }
 
-/* Mobile M - 375px */
+/* small devices */
 @media (min-width: 375px) {
     .card {
-        font-size: 18px;
-        padding: 4px;
+        font-size: 15px;
+        /* padding: 4px; */
     }
 }
 
 /* Mobile L - 425px */
-@media (min-width: 425px) {
+/* @media (min-width: 425px) {
     .card {
         font-size: 18px;
         padding: 4px;
     }
-}
+} */
 
-/* Tablet - 768px */
+/* medium devices */
 @media (min-width: 768px) {
+    .card {
+        font-size: 15px;
+        padding: 4px;
+    }
     .button-container {
         font-size: 15px;
         padding: 4px;
     }
-    .card {
-        font-size: 21px;
-        padding: 4px;
-    }
 }
 
-/* Laptop - 1024px */
+/* large devices */
 @media (min-width: 1024px) {
     .button-container {
-        font-size: 30px;
+        font-size: 18px;
         padding: 4px;
     }
     .card {
-        font-size: 30px;
-        padding: 4px;
+        font-size: 20px;
+        padding: 5px;
     }
 }
 
 /* Laptop L - 1440px */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
     .button-container {
         font-size: 25px;
         padding: 4px;
@@ -198,16 +200,16 @@ li {
         font-size: 25px;
         padding: 4px;
     }
-}
+} */
 
 /* 4k - 2560px */
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
     .button-container {
         font-size: 40px;
         padding: 4px;
     }
     .card {
-        font-size: 40px;
+        font-size: 10px;
         padding: 4px;
     }
-} 
+}  */
