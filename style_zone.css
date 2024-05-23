@@ -145,7 +145,6 @@ li {
     border-radius: 10px;
 }
 
-/** All zones styling  */
 p {
     letter-spacing: 2px;
 }
@@ -176,8 +175,6 @@ button.accordion {
 }
   
 button.accordion{
-    /* font-family: FontAwesome;
-    font-family: "fontawesome"; */
     font-family: "Minecraft", sans-serif;
     content: "\f150";
     font-size: 18px;
@@ -197,6 +194,26 @@ button.accordion.is-open {
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
     margin-top: 10px;
+}
+
+/** zone 4 */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-links b {
+    margin-bottom: 40px;
+}
+
+.contact-links .contact-item {
+    margin-left: 16.5%;
+    margin-bottom: 30px;
+}
+
+.contact-item a {
+    text-decoration: none;
 }
 
 /** RESPONSIVE BREAKPOINTS */
