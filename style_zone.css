@@ -118,6 +118,10 @@ body {
   right: 0;
 }
 
+p {
+    letter-spacing: 2px;
+}
+
 /* ZONE 1 & 2 */
 ul {
     position: relative;
@@ -130,6 +134,7 @@ li {
     margin-bottom: 20px;
     letter-spacing: 1px;
     list-style-type: none;
+    font-size: 12px;
 }
 
 #hover-image {
@@ -142,11 +147,6 @@ li {
     border-style: solid;
     border-radius: 10px;
 }
-
-p {
-    letter-spacing: 2px;
-}
-
 /* ZONE 3 accordion */
 h1 {
     text-align: center;
