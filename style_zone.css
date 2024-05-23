@@ -122,6 +122,7 @@ p {
     letter-spacing: 2px;
 }
 
+
 /* ZONE 1 & 2 */
 ul {
     position: relative;
@@ -215,14 +216,6 @@ button.accordion.is-open {
 }
 
 /** RESPONSIVE BREAKPOINTS */
-/* Mobile S - 320px */
-/* @media (min-width: 320px) {
-    .card {
-        font-size: 15px;
-        padding:4px;
-    }
-} */
-
 /* small devices */
 @media (min-width: 375px) {
     .card {
