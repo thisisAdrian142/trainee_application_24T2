@@ -2,21 +2,21 @@
 
 ## 🌎 About this website
 
-The website is about application for mini project about web development in Term 2.
+This webpage is an application for Devsoc's Trainee Program in term 2.
 
 ## ⭕️ Theme: Circles
 
-As for me, I chose "Sonic the Hedgehod" theme since it seems to be related to circles.
+The theme I chose is a portal ring that allows you to travel to other fantasy worlds.
 
 ## 💻 Built with
 
 Technologies used in this project:
 
-- GPT-4.0
 - HTML
 - CSS
 - Javascript (GSAP library)
+- GPT-4.0
 
 ## ❤️ Like my page ?
 
-Count me in this program 😘
+PLEASE COUNT ME IN THE PROGRAM 😭😭🙏🙏
