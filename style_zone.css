@@ -150,6 +150,56 @@ p {
     letter-spacing: 2px;
 }
 
+/** ZONE 3 accordion */
+h1 {
+    text-align: center;
+    color: #9A3F4A;
+}
+
+.container {
+    width: 95%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+  
+button.accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 15px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    border-style: solid;
+}
+  
+button.accordion{
+    /* font-family: FontAwesome;
+    font-family: "fontawesome"; */
+    font-family: "Minecraft", sans-serif;
+    content: "\f150";
+    font-size: 18px;
+    float: right;
+}
+  
+button.accordion.is-open {
+    content: "\f151";
+}
+  
+.accordion-content {
+    background-color: whitesmoke;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+/** RESPONSIVE BREAKPOINTS */
 /* Mobile S - 320px */
 @media (min-width: 320px) {
     .card {
