@@ -61,9 +61,6 @@ function set_style(class_name, property, value) {
     set_style('a', 'color', 'black');
     set_style('a', 'padding', '15px');
     set_style('.card', 'background-color', ' #e1ba21');
-    set_style('.about-me', 'background-color', '#e3d498');
-    set_style('.about-me', 'padding', '10px');
-    set_style('.about-me', 'border-radius', '10px');
   }
 });
 
@@ -100,10 +97,8 @@ accordionBtns.forEach((accordion) => {
     console.log(content);
 
     if (content.style.maxHeight) {
-      //this is if the accordion is open
       content.style.maxHeight = null;
     } else {
-      //if the accordion is currently closed
       content.style.maxHeight = content.scrollHeight + "px";
       console.log(content.style.maxHeight);
     }

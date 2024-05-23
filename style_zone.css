@@ -30,8 +30,6 @@ body {
     user-select: none;
     font-weight: bold;
     font-style: normal;
-
-    /** transparent background */
     opacity: .95;
 }
 
@@ -39,7 +37,7 @@ body {
     transform: translateY(-100px); 
 }
 
-/** CARD CONTENT  */
+/* CARD CONTENT  */
 .card {
     transform: translateY(-50px);
     font-size: 14px;
@@ -120,7 +118,7 @@ body {
   right: 0;
 }
 
-/** ZONE 1 & 2 */
+/* ZONE 1 & 2 */
 ul {
     position: relative;
     padding: 10px;
@@ -149,7 +147,7 @@ p {
     letter-spacing: 2px;
 }
 
-/** ZONE 3 accordion */
+/* ZONE 3 accordion */
 h1 {
     text-align: center;
     color: #9A3F4A;
@@ -218,12 +216,12 @@ button.accordion.is-open {
 
 /** RESPONSIVE BREAKPOINTS */
 /* Mobile S - 320px */
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
     .card {
         font-size: 15px;
         padding:4px;
     }
-}
+} */
 
 /* small devices */
 @media (min-width: 375px) {
