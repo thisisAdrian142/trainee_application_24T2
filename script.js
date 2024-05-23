@@ -23,7 +23,7 @@ function set_style(class_name, property, value) {
   }
 
   //* MY PORTFOLIO
-  else if (document.body.classList.contains('thisisclasszone2')) {
+  else if (document.body.classList.contains('zone2')) {
     document.body.style.backgroundImage = 'url("./images/robot_typing.gif")';
     set_style('.button-container.success', 'background-color', '#D0D5B1');
     set_style('a', 'color', '#91B89F');
@@ -38,7 +38,7 @@ function set_style(class_name, property, value) {
   }
 
   //* ABOUT THIS PAGE
-  else if (document.body.classList.contains('notzone4thisiszone3')) {
+  else if (document.body.classList.contains('zone3')) {
     document.body.style.backgroundImage = 'url("./images/maintenance.gif")';
     set_style('.button-container.success', 'background-color', '#4C376C');
     set_style('a', 'color', '#904536');
@@ -55,7 +55,7 @@ function set_style(class_name, property, value) {
   }
 
   //* CONTACTS
-  else if (document.body.classList.contains('yesthisiszone4')) {
+  else if (document.body.classList.contains('zone4')) {
     document.body.style.backgroundImage = 'url("./images/friends.gif")';
     set_style('.button-container.success', 'background-color', '#b25440');
     set_style('a', 'color', 'black');
